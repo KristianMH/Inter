@@ -37,17 +37,18 @@
 \numberwithin{listing}{section}
 
 \author{
-  Forfattere:\\
+  Gruppe: 3D \\
   \texttt{Mikkel Enevoldsen} \\[.4cm]
   \texttt{Kristian Høi} \\[.4cm]
-  Instruktor: Jesper Lundsgaard\\[.4cm]
+  \texttt{Dominique Chancelier} \\[.4cm]
+  Instruktor: Jesper Lundsgaard
   \vspace{10cm}
 }
 
 \title{
   \vspace{3cm}
-  \Huge{Titel} \\[.25cm]
-  \large{undertitel}
+  \Huge{Opgave 1} \\[.25cm]
+  \large{Målelige krav til brugsvenlighed}
   \vspace{.75cm}
 }
 
@@ -64,21 +65,42 @@
 
 \newpage
 
-\tableofcontents %generate table of content
+%\tableofcontents %generate table of content
 
 \thispagestyle{empty}
 
-\newpage
+%\newpage
 \pagestyle{plain}
 \setcounter{page}{1}
 \pagenumbering{arabic}
 
-\section{Indledning}
-
-Denne opgave.... \cite{mahr2005}
-
-
-
-\bibliography{references}{}
-\bibliographystyle{plain}
+\section*{Forudsætninger}
+Vi antager til denne test, at vi har 20 brugere, som ingen erfaring med digikey.\\
+Brugere bruger deres egne enheder og derfor må det kunne antages, at de er sikker med deres enheder
+\section*{Opstil 3 målelige krav for effektivitet af det digitale nøglebundt.}
+\subsection*{Krav 1 - Lås hoveddøren}
+\textbf{Starttilstand}: Døren er åben\\
+\textbf{Resultat}: 85\% af brugerne skal kunne låse døren inden for 3 minutter.
+\subsection*{Krav 2 - Tildel adgangsrettigheder til bruger (f.eks. samlever)}
+\textbf{Starttilstand}: Brugeren har ikke adgangsretigheder\\
+\textbf{Resultat} : 85\% af brugerne skal kunne tildele rettigheder til andre brugere inden for 10 minutter.
+\subsection*{Krav 3 - Krontroller om døren er låst/åben}
+\textbf{Starttilstand: Enten l\aa st/\aa ben}\\
+\textbf{Resultat} : 85\% af brugerne skal kunne finde ud af dørens status(låst/åben) indenfor 5 minutter.\newpage
+\section*{Forudsætninger}
+Vi antager til denne test, at vi har 20 erfarne brugere som har brugt appen i cirka. 1 måned og har brugt appen på den samme enhed hele tiden.
+Til måling bruger vi skalaen gående fra : Helt uenig uenig neutral enig helt enig\\
+\section*{Opstil 3 målelige krav for tilfredshed med det digitale nøglebundt.}
+\subsection*{Krav 1}
+\textbf{Påstand}: Det er nemt at låse døren med DigiKey.\\
+\textbf{Acceptabelt resultat}: 76\% af brugerne er enig/helt enig
+\subsection*{Krav 2}
+\textbf{Påstand}: DigiKey kan erstatter en konventionel/fysisk nøgle\\
+\textbf{Acceptabelt resultat}: 52\% af brugerne er enig/helt enig
+\subsection*{Krav 3}
+\textbf{Påstand}: Jeg vil anbefale Digikey til venner/bekendte DigiKey til venner/bekendte\\
+\textbf{Acceptabelt resultat}: 70\% af brugerne er enig/helt enig
+\subsection*{Krav 4}
+\textbf{Påstand}: Det er nemt at tildele rettigheder til en tredjepart.
+\textbf{Acceptabelt resultat}: 60\% af brugerne er enig/helt enig
 \end{document}
