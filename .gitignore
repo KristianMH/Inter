@@ -21,3 +21,13 @@
 *.mtc1
 *.out
 *.synctex.gz
+*.fdb_latexmk
+*.aux.make
+*.auxbbl.make
+*.auxbbl.make.temp
+*.auxtarget.make
+*.d
+*.fls
+*.out.make
+*.pdf
+*.pyg
