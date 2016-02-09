@@ -3361,7 +3361,7 @@ clean-generated:
 
 .PHONY: clean-deps
 clean-deps:
-	$(QUIET)$(call clean-files,$(all_d_targets) *.make *.make.temp *.cookie *.pyg)
+	$(QUIET)$(call clean-files,$(all_d_targets) *.make *.make.temp *.cookie *.pyg *.synctex.gz *.fdb_latexmk)
 
 .PHONY: clean-tex
 clean-tex: clean-deps
