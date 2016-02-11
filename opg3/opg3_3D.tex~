@@ -1,0 +1,102 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper, hmargin={2.8cm, 2.8cm}, vmargin={2.5cm, 2.5cm}]{geometry}
+\usepackage{eso-pic} % \AddToShipoutPicture
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[english]{babel}
+\usepackage{cite}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{mathrsfs}
+\usepackage{enumerate}
+\usepackage{fullpage}
+\usepackage[linkcolor=red]{hyperref}
+\usepackage[final]{graphicx}
+\usepackage{color}
+\usepackage{listings}
+\renewcommand*\lstlistingname{Code Block}
+\definecolor{bg}{rgb}{0.95,0.95,0.95}
+
+%caption distinct from normal text
+\usepackage[hang,small,bf]{caption}
+\usepackage{hyperref}
+
+\hypersetup{
+    colorlinks,%
+    citecolor=black,%
+    filecolor=black,%
+    linkcolor=black,%
+    urlcolor=black
+}
+
+\author{
+  \texttt{Gruppe: 3D} \\
+  \texttt{Mikkel Enevoldsen} \\[.4cm]
+  \texttt{Kristian Høi} \\[.4cm]
+  \texttt{Dominique Chancelier} \\[.4cm]
+  Instruktor: Jesper Lundsgaard
+  \vspace{10cm}
+}
+
+\title{
+  \vspace{3cm}
+  \Huge{Opgave 1} \\[.25cm]
+  \large{Målelige krav til brugsvenlighed}
+  \vspace{.75cm}
+}
+
+\begin{document}
+
+\AddToShipoutPicture*{\put(0,0){\includegraphics*[viewport=0 0 700 600]{includes/ku-farve}}}
+\AddToShipoutPicture*{\put(0,602){\includegraphics*[viewport=0 600 700 1600]{includes/ku-farve}}}
+
+%% Change `ku-en` to `nat-en` to use the `Faculty of Science` header
+\AddToShipoutPicture*{\put(0,0){\includegraphics*{includes/ku-en}}}
+
+\clearpage\maketitle
+\thispagestyle{empty}
+
+\newpage
+
+%\tableofcontents %generate table of content
+
+\thispagestyle{empty}
+
+%\newpage
+\pagestyle{plain}
+\setcounter{page}{1}
+\pagenumbering{arabic}
+
+\section*{Forudsætninger}
+Vi antager til denne test, at vi har 20 brugere, der har ingen erfaring med digikey.\\
+Brugere bruger deres egne enheder og derfor må det kunne antages, at de er sikre med deres enheder.
+\section*{Opstil 3 målelige krav for effektivitet af det digitale nøglebundt.}
+\subsection*{Krav 1 - Lås hoveddøren}
+\textbf{Starttilstand}: Døren er åben\\
+\textbf{Resultat}: 85\% af brugerne skal kunne låse døren inden for 3 minutter.
+\subsection*{Krav 2 - Tildel adgangsrettigheder til bruger (f.eks. samlever)}
+\textbf{Starttilstand}: Brugeren har ikke adgangsretigheder\\
+\textbf{Resultat} : 85\% af brugerne skal kunne tildele rettigheder til andre brugere inden for 10 minutter.
+\subsection*{Krav 3 - Krontroller om døren er låst/åben}
+\textbf{Starttilstand: Enten l\aa st/\aa ben}\\
+\textbf{Resultat} : 85\% af brugerne skal kunne finde ud af dørens status(låst/åben) indenfor 5 minutter.\newpage
+\section*{Forudsætninger}
+Vi antager til denne test, at vi har 20 erfarne brugere, som har brugt appen i cirka. 1 måned og har brugt appen på den samme enhed hele tiden.
+Til måling bruger vi skalaen gående fra : Helt uenig neutral enig helt enig\\
+\section*{Opstil 3 målelige krav for tilfredshed med det digitale nøglebundt.}
+\subsection*{Krav 1}
+\textbf{Påstand}: Det er nemt at låse døren med DigiKey.\\
+\textbf{Acceptabelt resultat}: 76\% af brugerne er enig/helt enig
+\subsection*{Krav 2}
+\textbf{Påstand}: DigiKey kan erstatter en konventionel/fysisk nøgle\\
+\textbf{Acceptabelt resultat}: 52\% af brugerne er enig/helt enig
+\subsection*{Krav 3}
+\textbf{Påstand}: Jeg vil anbefale Digikey til venner/bekendte DigiKey til venner/bekendte\\
+\textbf{Acceptabelt resultat}: 70\% af brugerne er enig/helt enig
+\subsection*{Krav 4}
+\textbf{Påstand}: Det er nemt at tildele rettigheder til en tredjepart.\\
+\textbf{Acceptabelt resultat}: 60\% af brugerne er enig/helt enig
+\end{document}
