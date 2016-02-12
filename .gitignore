@@ -31,3 +31,4 @@
 *.out.make
 *.pdf
 *.pyg
+*.tex~
