@@ -29,6 +29,5 @@
 *.d
 *.fls
 *.out.make
-*.pdf
 *.pyg
 *.tex~
