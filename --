@@ -92,46 +92,15 @@
 
 \section{Review af egne testopgaver}
 
-Efter at have kørt testopgaverne på gruppens egne medlemmer, kan vi på basis af dette komme med følgende review, der ultimativt giver os den reviderede version af testopgaverne som set i afsnit 3.\\
-
-\noindent Vi fandt det hurtigt nødvendigt at lave en dummy-bruger, som testdeltagere kan tilføje, da det sjældent er tilfældet at deltageren har en ven, der rent faktisk bruger produktet. Derfor både fremskynder det processen og gør den mere problemfri at lave en falsk bruger, de blot kan tilføje. Dernæst fandt vi to yderligere problemer hvad angår de specifikke opgaver. Opgaverne "Send en privatbesked til en af dine studiekammerater" og "Meld afbud til planlagt begivenhed i din gruppes kalender" er ikke mulige på Grouproom, og fjernes eller ændres derfor i den reviderede udgave. Derudover ændres opgaverækkefølgen, så den passer bedre sammen. Eksempelvis så deltageren ikke skal ekskludere den bruger, han senere skal tilføje til en begivenhed.\\
-
-\noindent Kommentarer og usability observationer omkring webstedet www.grouproom.dk:\\
-
-\noindent I vores test af egne gruppemedlemmer, er vi også kommet frem til egne, midlertidige resultater. Blandt disse, har vi at testene fandt designet til at være velkendt for brugerne. De fandt det Windows-lignende, og fandt sig yderligere godt hjemme i tabsene i toppen til at skifte mellem grupper, da det ligner noget de har prøvet før. Vores testdeltager fandt dog ikke ikonet for at lave en ny gruppe specielt beskrivende, og havde derfor meget besvær med at finde ud af hvilken knap han skulle trykke på at for oprette denne. Dog syntes brugerens generelle indtryk af knapperne til at være godt beskrivende om deres funktionaliteter, med undtagelse af denne ene førnævnte knap. Derudover finder brugeren tvivl om hvad det grupperum, der blev oprettet ved tilmeldelsen, har som rolle. I stedet valgtes at oprette et nyt rum til sine nye grupper, og efterlade det første tomt.\\
-
-\noindent Vores testdeltager fandt hele brugeroprettelsesdelen besværlig. Når man forsøger at oprette en ny bruger, er der alt for mange felter at tage stilling til. Dette fandt brugeren uoverskueligt, og fandt det derudover også meget forvirrende, da det ikke fremgik klart hvilke felter han krævedes at udfylde, og hvilke han bare skulle udfylde hvis han ville. Eksempelvis er det ikke specificeret nogen steder hvad "Upgrade/School code" skulle være, og da det står på lige fod med de andre bokse, vil man i høj grad være tilbøjelig til at tro at det er påkrævet. Det er det dog imidlertid ikke. En god ting om brugeroprettelsen er dog, at teksten skifter farve alt efter om dit svar er gyldigt eller ej. Derudover fandt deltageren guiden rundt om 
-Grouproom for lang og ligegyldig.\\
-
-\noindent Man kan sætte spørgsmålstegn ved redigér knappen til uploadede billeders funktion. Når man uploader en fil får man aldrig muligheden for at redigere i denne fil, den eneste ændring man kan lave er at ændre filnavnet. Derfor synes det ikke særligt beskrivende for knappens egentlig funktion, og man kunne med fordel give den et nyt navn i stil med "omdøb" eller lignende, der beskriver dens funktionalitet bedre.\\
-
-<<<<<<< HEAD
-\begin{itemize} 
-\item {sp\o rgsm\aa l til interview f\or test}
-hvad er dine websurfing/it aferinger?
-Ved du hvordan man s\o ger en bestem ord i en text p\aa  en hjemmsiden?
-Kender du Grouproom, hvis ja, hvad fortog du dig?
-Kender du andre hjemmesider der minder om det?
- 
-=======
-\newpage
-
-\noindent Testdeltagerne fandt det også besynderligt, at der ikke var nogen mulighed for at sende privatbeskeder til sine studiekammerater. Det var om ikke andet ikke en funktion, som vores testdeltagere kunne finde. Det markerer en ret stor mangel, og vil tvinge brugerne til at bruge andre tjenester, hvis man ikke ønsker at sende alle sine beskeder ud til alle medlemmer men kun en enkelt.\\
-
-\noindent Afsluttende oplevede en deltager undervejs en programfejl, der gjorde at en fil ikke kunne uploades. Efter flere minutters venten var det dog tilstrækkeligt at opdatere siden, hvoefter den pågældende fil kunne uploades som man før ville have forventet det skulle gøres.
-
-\newpage
-
 Testleder: Carsten\\
 Testdeltager: Dominique\\
 Testdeltager "dummy": Mikkel: Find Grouprooms hjemmeside.\\
->>>>>>> 13692a61d6d70a406ec565314cbb3dd1ac95886e
 
 Du har f\aa et en opgave med din gruppe og I skal bruge Grouproom, for at snakke/arbejde sammen din grupp og dig. Find en grouprooms hjemsiden
 Dominique: Sikke en lausy hjemmeside.
-Dominique har let ved denne opgave.
+Dominique har let ved denne
 
-2: Opret profil på Grouproom og login og udforsk hjemmesiden.
+opgave.2: Opret profil på Grouproom og login og udforsk hjemmesiden.
 
 Dominique: Den er på engelsk. Ved ikke om de skal have efternavn. Den lyser rød, når indholdet ikke er vallidt, og når man skriver sit password. Når man er færdig så lyser den grøn.
 Dominique har let ved denne 
@@ -189,17 +158,7 @@ Dominique har svært ved denne
 
 opgave.11: Opret en opgave og uddeliger den til et andet medlem.
 Dominique fjerner sig selv fra opgaven og giver den til Mikkel.
-Dominique har let ved denne opgave.\\
-
-- Velkendt design, Windows-lignende tabs i toppen.\\
-- Vores testdeltager fandt ikke ikonet for at lave en ny gruppe beskrivende, og havde herfor svært ved at finde ud af hvor den skulle oprettes.\\
-- Deltagerne fandt guiden rundt om grouproom for lang og ligegyldig.\\
-- Besværlig brugeroprettelse. Det fremgår ikke hvilket felter, der er påkrævet.\\
-- Brugeren oplevede undervejs en programfejl, der gjorde at en fil ikke kunne uploades. Efter flere minutters venten var det dog tilstrækkeligt at opdatere siden.\\
-- Testdeltageren er i tvivl om hvilken rolle det førstoprettede grupperum har, og vælger at oprette en helt ny gruppe, i stedet for bare at invitere sine studiekammerater til den i forvejen eksisterende gruppe.\\
-- Generelt er det dog (pånær ny gruppe-ikonet) vellignende ikoner, der hurtigt giver adgang til de funktioner man ledte efter. \\
-- Redigér knappen til uploadede filer kan virke misledende i og med det kun er filens navn man kan ændre. Den bør ændres til omdøb eller lignende, der beskriver dens funktionalitet bedre.\\
-- Manglende, eller om ikke andet godt skjult, privatbeskedsfunktion kan vække irritation hos brugere, da de i stedet ville skulle bruge andre produkter til privat kommunikation.\\
+Dominique har let ved denne opgave.
 
 \section{Revidering af testopgaver}
 
