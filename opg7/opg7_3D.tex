@@ -1,0 +1,227 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper, hmargin={2.8cm, 2.8cm}, vmargin={2.5cm, 2.5cm}]{geometry}
+\usepackage{eso-pic} % \AddToShipoutPicture
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[english]{babel}
+\usepackage{cite}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{enumerate}
+\usepackage{mathrsfs}
+\usepackage{fullpage}
+\usepackage[linkcolor=red]{hyperref}
+\usepackage[final]{graphicx}
+\usepackage{color}
+\usepackage{listings}
+\renewcommand*\lstlistingname{Code Block}
+\definecolor{bg}{rgb}{0.95,0.95,0.95}
+
+%caption distinct from normal text
+\usepackage[hang,small,bf]{caption}
+\usepackage{hyperref}
+
+\hypersetup{
+    colorlinks,%
+    citecolor=black,%
+    filecolor=black,%
+    linkcolor=black,%
+    urlcolor=black
+}
+
+\author{
+  \texttt{Gruppe: 3D} \\
+  \texttt{Mikkel Enevoldsen} \\[.4cm]
+  \texttt{Kristian Høi} \\[.4cm]
+  \texttt{Dominique Chancelier} \\[.4cm]
+  \texttt{Carsten Jensen} \\[.4cm]
+  Instruktor: Jesper Lundsgaard
+  \vspace{8cm}
+}
+
+\title{
+  \vspace{3cm}
+  \Huge{Opgave 6} \\[.25cm]
+  \large{Kontekstuel Analyse}
+  \vspace{.75cm}
+}
+
+\begin{document}
+
+\AddToShipoutPicture*{\put(0,0){\includegraphics*[viewport=0 0 700 600]{includes/ku-farve}}}
+\AddToShipoutPicture*{\put(0,602){\includegraphics*[viewport=0 600 700 1600]{includes/ku-farve}}}
+
+%% Change `ku-en` to `nat-en` to use the `Faculty of Science` header
+\AddToShipoutPicture*{\put(0,0){\includegraphics*{includes/ku-en}}}
+
+\clearpage\maketitle
+\thispagestyle{empty}
+
+\newpage
+
+\tableofcontents %generate table of content
+
+\thispagestyle{empty}
+
+\newpage
+\pagestyle{plain}
+\setcounter{page}{1}
+\pagenumbering{arabic}
+
+\section{Typiske testopgaver}
+
+\begin{enumerate}
+\item Find Grouprooms hjemmeside.
+\item Opret profil på Grouproom og login og udforsk hjemmesiden.
+\item Har du en studiegruppe du studerer med? Hvis ja, så opret en studiegruppe til gruppen.
+\item Tilføj dine studiekammerater til denne gruppe, og hvis de ikke GroupRoom, tilføj dummy-brugeren Mikkel.
+\item Upload en fil til gruppen, rediger i denne fil og slet den bagefter.
+\item Send en besked til gruppemedlemmerne om .
+\item Send privatbesked til en af dine studiekammerater.
+\item Opret en begivenhed i din gruppes kalender.
+\item Ekskludér et medlem af gruppen.
+\item Slet en begivenhed i din gruppes kalender.
+\item Meld afbud til planlagt begivenhed i din gruppes kalender.
+\item Opret en opgave og uddeliger den til et andet medlem.
+\end{enumerate}
+
+\newpage
+
+\section{Review af egne testopgaver}
+
+Efter at have kørt testopgaverne på gruppens egne medlemmer, kan vi på basis af dette komme med følgende review, der ultimativt giver os den reviderede version af testopgaverne som kan ses i afsnit 3.\\
+
+\noindent Vi fandt det hurtigt nødvendigt at lave en dummy-bruger, som testdeltagere kan tilføje, da det sjældent er tilfældet at deltageren har en ven, der rent faktisk bruger produktet. Derfor både fremskynder det processen og gør den mere problemfri at lave en falsk bruger, de blot kan tilføje. Dernæst fandt vi to yderligere problemer hvad angår de specifikke opgaver. Opgaverne "Send en privatbesked til en af dine studiekammerater" og "Meld afbud til planlagt begivenhed i din gruppes kalender" er ikke mulige på Grouproom, og fjernes eller ændres derfor i den reviderede udgave. Derudover ændres opgaverækkefølgen, så den passer bedre sammen. Eksempelvis så deltageren ikke skal ekskludere den bruger, han senere skal tilføje til en begivenhed.\\
+
+\noindent Kommentarer og usability observationer omkring webstedet www.grouproom.dk:\\
+
+\noindent I vores test af egne gruppemedlemmer, er vi også kommet frem til egne, midlertidige resultater. Blandt disse, har vi at testene fandt designet til at være velkendt for brugerne. De fandt det Windows-lignende, og fandt sig yderligere godt hjemme i tabsene i toppen til at skifte mellem grupper, da det ligner noget de har prøvet før. Vores testdeltager fandt dog ikke ikonet for at lave en ny gruppe specielt beskrivende, og havde derfor meget besvær med at finde ud af hvilken knap han skulle trykke på at for oprette denne. Dog syntes brugerens generelle indtryk af knapperne til at være godt beskrivende om deres funktionaliteter, med undtagelse af denne ene førnævnte knap. Derudover finder brugeren tvivl om hvad det grupperum, der blev oprettet ved tilmeldelsen, har som rolle. I stedet valgtes at oprette et nyt rum til sine nye grupper, og efterlade det første tomt.\\
+
+\noindent Vores testdeltager fandt hele brugeroprettelsesdelen besværlig. Når man forsøger at oprette en ny bruger, er der alt for mange felter at tage stilling til. Dette fandt brugeren uoverskueligt, og fandt det derudover også meget forvirrende, da det ikke fremgik klart hvilke felter han krævedes at udfylde, og hvilke han bare skulle udfylde hvis han ville. Eksempelvis er det ikke specificeret nogen steder hvad "Upgrade/School code" skulle være, og da det står på lige fod med de andre bokse, vil man i høj grad være tilbøjelig til at tro at det er påkrævet. Det er det dog imidlertid ikke. En god ting om brugeroprettelsen er dog, at teksten skifter farve alt efter om dit svar er gyldigt eller ej. Derudover fandt deltageren guiden rundt om Grouproom for lang og ligegyldig.\\
+
+\noindent Man kan sætte spørgsmålstegn ved redigér knappen til uploadede billeders funktion. Når man uploader en fil får man aldrig muligheden for at redigere i denne fil, den eneste ændring man kan lave er at ændre filnavnet. Derfor synes det ikke særligt beskrivende for knappens egentlig funktion, og man kunne med fordel give den et nyt navn i stil med "omdøb" eller lignende, der beskriver dens funktionalitet bedre.\\
+
+\newpage
+
+\noindent Testdeltagerne fandt det også besynderligt, at der ikke var nogen mulighed for at sende privatbeskeder til sine studiekammerater. Det var om ikke andet ikke en funktion, som vores testdeltagere kunne finde. Det markerer en ret stor mangel, og vil tvinge brugerne til at bruge andre tjenester, hvis man ikke ønsker at sende alle sine beskeder ud til alle medlemmer men kun en enkelt.\\
+
+\noindent Afsluttende oplevede en deltager undervejs en programfejl, der gjorde at en fil ikke kunne uploades. Efter flere minutters venten var det dog tilstrækkeligt at opdatere siden, hvorefter den pågældende fil kunne uploades som man før ville have forventet det skulle gøres.
+
+\subsection*{Test-interview}
+
+Testleder: Carsten\\
+Testdeltager: Dominique, Mikkel("Dummy")\\
+\begin{enumerate}
+  \item Find Grouprooms hjemmeside.
+  Dominique har let ved denne opgave.
+
+\item Opret profil på Grouproom og login og udforsk hjemmesiden.
+Dominique: Den er på engelsk. Ved ikke om de skal have efternavn. Den lyser rød, når indholdet ikke er validt, og når man skriver sit password. Når man er færdig så lyser den grøn. \\
+Dominique har let ved denne opgave.
+
+\item Opret en gruppe for din studiegruppe.
+Dominique: Navnet på din første gruppe. Man kan lave flere grupper. Ved ikke hvad upgrade/school code er.
+Det er kendt for brugeren. Projekerne bliver lagt op som tabs. Det minder om Chrome. \\
+Opdagelsesturen tager for lang tid.\\
+Dominique har let ved denne opgave.
+
+\item Tilføj nogen studiekammerater til denne gruppe.
+Mikkel opretter sig på Classroom.
+Dominique: Brugeren tror, at det allerede er den gruppe, han har oprettet.
+Det er ikke til at finde ud af. Dominique oplever frustration.
+Tilføj nogen studiekammerater: Finder det hurtigt under "members" og "plus". Unødvendig tekst.\\
+Dominique har svært ved denne opgave. 
+
+\item Upload en fil til gruppen, rediger i denne fil og slet den bagefter.
+Dominique: Der er billede af, hvad du skal trykke på. Der mangler bar til fil-upload. Det tager lang tid. Brugeren bliver utålmodig og prøver en anden fil.
+Filen bliver først uploadet efter, jeg har sagt "refresh".
+Nu blev den nye fil uploadet med det samme.
+Kan jeg åbne filen? Man kan ikke redigere filerne online. Man kan kun ændre navnet.
+Den bliver slettet uden problemerne.\\
+Dominique har let ved denne opgave.
+
+\item Send besked til gruppemedlemmerne.
+Dominique: Jeg kan sende beskeder lige her. Hvor er mit gruppemedlem henne. Har du ikke accepteret invitationen? Der er et ikon der ligner en flamme. Jeg sender en besked nu. Den kan ses af dummy brugeren.\\
+Dominique har forholdsvis let ved denne opgave.
+
+\item Send privatbesked til en af dine studiekammerater.
+Dominique: Man kan IKKE sende privatbesked. Visibility, names, dummy, discussion. Man kan vælge farver på sin event. Blå, rød og gul. Man kan vælge at lave den privat eller gruppe.
+Dominique kunne ikke løse denne opgave.\\
+
+\item Opret og slet en begivenhed i din gruppes kalender.
+Dominique: Gik først ind på calender og kunne ikke finde det. Fandt det ved andet forsøg. Det lykkedes at slette den.
+Dominique har forholdsvis let ved denne opgave.\\
+
+\item Ekskludér et medlem af gruppen.
+Dominique: Det er meget nemt. Der står minus. Man kan fjerne sig selv fra gruppen. Dominique fjerner Mikkel fra gruppen.\\
+Dominique har let ved denne opgave.
+
+\item Meld afbud til planlagt begivenhed i din gruppes kalender.
+Dominique forsøger at oprette en ny begivenhed for at kunne melde afbud til den. Er i store vanskeligheder. Man kan ikke melde afbud. Man kan kun slette den.\\
+Dominique kunne ikke løse denne opgave.\\
+
+\item Opret en opgave og uddeleger den til et andet medlem.
+Dominique fjerner sig selv fra opgaven og giver den til Mikkel.
+Dominique har let ved denne opgave.\\
+
+\end{enumerate}
+
+
+\section{Revidering af testopgaver}
+
+Vores review viste at vi var nødt til at ændre i vores testopgaver. Det viste sig, at  det ikke var muligt hverken at melde afbud til en begivenhed eller sende en privat besked til andre medlemmer. Disse er derfor fjernet fra den reviderede version. Derudover er der også rykket på rækkefølgen, så den sidste opgave er at ekskludere et medlem og opgaven at slette en fil ligeledes er rykket.
+
+\begin{enumerate}
+\item Find Grouprooms hjemmeside.
+\item Opret profil på Grouproom og login og udforsk hjemmesiden.
+\item Har du en studiegruppe du studerer med? Hvis ja, så opret en studiegruppe til gruppen.
+\item Tilføj dine studiekammerater til denne gruppe, og hvis de ikke er oprettet på GroupRoom, tilføj dummy-brugeren Mikkel.
+\item Upload en fil til gruppen og rediger i denne fil.
+\item Send en besked til gruppemedlemmerne om at vil slette filen igen.
+\item Slet filen.
+\item Opret en begivenhed i din gruppes kalender.
+\item Slet begivenheden i din gruppes kalender.
+\item Opret en opgave og uddelegér den til et andet medlem.
+\item Ekskludér et medlem af gruppen.
+\end{enumerate}
+
+\section{Drejebog}
+Før hver testsession skal computeren være tændt, browseren skal stå på ny fane siden i inkognito tilstand. For en sikkerhedsskyld skal historikken være slettet.
+\subsection{Stikord før interview}
+Vi tester ikke dig men web-stedet. \\
+Vi må ikke hjælpe dig under testen. \\
+Du skal tænke højt under testen. \\
+Du kan ikke lave fejl
+\subsection{Spørgsmål før interview}
+\begin{enumerate}
+  \item Hvad er dine websurfing/it erfaringer?
+  \item Kender du Grouproom, hvis ja, har du brugt det før og hvad foretog du dig?
+  \item Kender du andre hjemmesider der minder om det?
+\end{enumerate}
+\subsection{Testopgaver}
+\begin{enumerate}
+\item Find Grouprooms hjemmeside.
+\item Opret profil på Grouproom og login og udforsk hjemmesiden.
+\item Har du en studiegruppe du studerer med? Hvis ja, så opret en studiegruppe til gruppen.
+\item Tilføj dine studiekammerater til denne gruppe, og hvis de ikke er oprettet på GroupRoom, tilføj dummy-brugeren Mikkel.
+\item Upload en fil til gruppen og rediger i denne fil.
+\item Send en besked til gruppemedlemmerne om at vil slette filen igen.
+\item Slet filen.
+\item Opret en begivenhed i din gruppes kalender.
+\item Slet begivenheden i din gruppes kalender.
+\item Opret en opgave og uddelegér den til et andet medlem.
+\item Ekskludér et medlem af gruppen.
+\end{enumerate}
+\subsection{Spørgsmål til eftersnak}
+\begin{itemize}
+  \item Hvordan synes du overordnet denne test har været?
+  \item Hvad er de 3 bedste ting ved hjemmesiden?
+  \item Hvad er de 3 værste ting ved hjemmesiden?
+  \item Kunne du finde på at bruge denne hjemmeside igen?
+\end{itemize}
+
+
+\end{document}
