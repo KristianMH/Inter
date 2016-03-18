@@ -44,8 +44,8 @@
 
 \title{
   \vspace{3cm}
-  \Huge{Opgave 6} \\[.25cm]
-  \large{Kontekstuel Analyse}
+  \Huge{Opgave 8} \\[.25cm]
+  \large{Studie af videnskabelig artikel}
   \vspace{.75cm}
 }
 
@@ -62,8 +62,6 @@
 
 \newpage
 
-\tableofcontents %generate table of content
-
 \thispagestyle{empty}
 
 \newpage
@@ -73,27 +71,22 @@
 
 \section*{Resumé}
 
+\noindent Da man gennem tidligere undersøgelser har vist, at en endeløs mængde af testdeltagere ikke vil give en endeløs mængde af unikke resultater, undersøger artiklen hvorvidt det samme gælder for evaluatorer. Til dette valgte man fire testdeltagere, der alle var vante med computeren men ikke med programmet der testedes. Yderligere havde man fire evaluatorer, som hver analyserede testdeltagernes tænkehøjttest. Evaluatorerne rapporterede problemerne og alles rapporter sammenlignedes, hvorefter duplikater blev fratrukket, indtil man kun havde unikke problemstillinger tilbage. Evaluatorne lavede en top 10-liste, over de problemer de fandt mest kritiske. Det viste sig, at de ikke alle kom frem til samme resultater. Mens én evaluator kun fandt 46\% af problemerne, så blev kun 20\% af de samlede problemer fundet af alle fire evaluatorer. Hvad angår top 10-listerne, var der blandt andet ikke ét problem der optrådte på alles liste. Evaluatoreffekten er derfor en faktor der skal medregnes, når vi kigger på usabilitytest.\\
 
-\section*{}
+\noindent Et meget centralt begreb i artiklen er UPT - unique problem token. Alle UPT'er beskriver hver især et unikt problem fundet af evaluatorerne ved en usabilitytest. I artiklen skrives det eksempelvis at der i deres test i alt blev fundet 276 problemer ud fra deres ni opstillede kriterier. Nogle af disse viste sig dog at være duplikater, og da vi kun er interesserede i unikke problemer kortedes dette ned til 93. Fra vores egen usabilitytest kan vi eksempelvis fremhæve problemer vedrørende det røde flammeikon, der hos GroupRoom opstår når der er sket noget nyt, hvilket mange af vores testdeltagere ikke forstod. Derudover gør GroupRoom ikke brugeren tilstrækkeligt opmærksom på at vedkommende skal validere sin konto over den oplyste mail. En opgave det viste sig at alle vores testdeltagere enten havde problemer med.\\
 
-UPT:
-- unique problem token
-- eksempel fra vores egen: signup-problemet, det røde flammeikon etc.
-- table 2 og figure 2 stemmer nogenlunde overens. Hvis man tager en tilfældig evaluator, vil de i alle tilfælde have omkring halvdelen UPT's hver. Hvis vi tager 2 tilfældige, vil de ligeledes også passe nogenlunde med de 66\% tabel 2 viser.
-- Vi bruger formlen på side 2, og finder frem til 97,427. Det vil sige, at der hvis vi runder op til 98 er 5 UPT'er de ikke har fundet frem til.
+\noindent Table 2 og figure 2 stemmer de nogenlunde overens. Rent visuelt kan vi også se, at figure 2 tilnærmelsesvis viser at 20\% af UPT'erne var fundet af alle evaluatorer, som table 2 dikterer skulle ske. I samme stil passer resten også i deres kategori - 13\% af alle UPT'er blev fundet af præcis 3 evaluatorer, mens 20\% også passer fint til dem der kun blev fundet af 2 evaluatorer. Slutteligt skulle den sidste strimmel med kun enlige observationer denne ca. 46\% af alle UPT'erne - hvilket også må siges at være tilfældet.\\
 
-Evaluator-effekt:
-- Jo flere evaluatorer, des flere UPT'er finder man, men effekten synes at være stavnerende efterhånden som antallet af evaluatorer går op (qua figur 1). Det kræver naturligvis også flere ressourcer og mere tid, jo flere evaluatorer man skal have.
-- Flere evaluatorer har også en tendens til at finde forskellige problemer, og de finder stor uenighed i deres prioritering af eksempelvis top 10-lister over største problemer. Det er naturligvis et problem.
+\noindent Vi fokuserer på formlen på artiklens anden side, og bruger denne til at udregne antallet af UPT'er. I en test med fire deltagere og fire evaluatorer vil der således være \\ 
+$19.35 \cdot 4^{0.505} \cdot 4^{0.661} = 97,427$ UPT'er. Da vi finder det svært at have en halv UPT, må der herfor skulle rundes op til 98.\\
 
-Overraskelse:
-Fire mennesker med markant viden, kunne ikke blive enige om hvad de mente var de mest kritiske problemområder.
+\noindent Vores egne erfaringer\\
 
+\noindent Jo flere evaluatorer, des flere UPT'er finder man, men effekten synes, som de også nævner i artiklen, at være stavnerende efterhånden som antallet af evaluatorer går op. Derfor er det i enhver usabilitytests interesse at finde en gylden middelvej for antallet af evaluatorer, da for mange synes at være spild af ressourcer - mens ved kun én evaluator, ifølge undersøgelsen berørt i artiklen, opdages kun 46\% af det samlede antal UPT'er.\\
 
+\noindent Da flere evaluatorer også har en tendens til at finde forskellige problemer, og de er oftest uenige i deres prioritering af eksempelvis top 10-lister over største problemer, som det ses i forsøget i artiklen. Derudover skete det i kun 20\% af gangene, at alle fire evaluatorer fandt det samme problem. Det vil sige, at 80\% af alle fundne problemer, var der mindst en evaluator der anså det for ikke at være et. Dette er naturligvis problematisk, og vi ønsker denne evaluatoreffekt mindsket. Dette kan vi tilgå på flere måder, \textbf{HVORDAN KAN DET MINDSKES?}\\
 
+\noindent Det der primært overraskede os mest, var det faktum, at fire mennesker med markant viden, ikke kunne finde frem til en prioriteringsliste der var nogenlunde enslignende. At måderne at tilgå og analyserer en usabilitytest kan resultere i så forskellige resultater og så stor spredning af UPT'er.\\
 
 
-
-
-\end{enumerate}
 \end{document}
