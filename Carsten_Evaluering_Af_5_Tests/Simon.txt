@@ -1,0 +1,32 @@
+Der var ingen spørgsmål inden testen.
+
+1: Godt
+2: Mindre problem. Email-Aktivering.
+3: Godt
+4: Godt
+5: Godt
+6: Godt
+7: Mindre problem.
+8: Godt.
+9: Godt.
+10: Godt.
+
+Spørgsmål efter test:
+Den var god.
+Forstyrende elementer på siden
+
+3 bedste ting: 
+God måde at smide folk ud på.
+Rykke rundt på tasks.
+Grøn ting der viser om man er online eller ej.
+
+3 værste ting: 
+Files og Gallery i øverste venstre hjørne er forvirrende.
+"Ild-ikonet".
+Lille ikon i øverste højre hjørne, hvor man kan tilføje nye folk. Knappen må gerne være mere tydelig.
+Man kan kun invitere 7 gruppemedlemmer.
+
+
+Vil gerne bruge hjemmesiden igen.
+
+
