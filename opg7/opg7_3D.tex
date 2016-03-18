@@ -44,7 +44,7 @@
 
 \title{
   \vspace{3cm}
-  \Huge{Opgave 6} \\[.25cm]
+  \Huge{Opgave 7} \\[.25cm]
   \large{Kontekstuel Analyse}
   \vspace{.75cm}
 }
@@ -125,33 +125,57 @@ Vi mener at dette er et respræsentativt udvalg af personer, da det falder ind u
   \item browerser kompatibel
   \item skal ikke installere noget. 
 \end{enumerate}
+
+\newpage
+
 \section{Testdeltagernes oplevelse af webstedet}
 \begin{enumerate}
-  \item Var forvirret over signup processen, hvornår var ens password rigtigt?
-        Et mindre usability problem var at når brugeren skriver sit ønskede password og ser, at det rødt får man ikke at vide hvad kravene for passwordet. 
-  \item Synes at "tour" var for lang og ubrugelig.
-        Kun to af vores testdeltagere(4 og 5) tog den interaktive tour på siden. Testdeltager 4 synes at den var for lang og ubrugeligt, hvorimod testdeltager 5 ikke havde   kommentaerer, og vi må konkludere, at det var godt. \\
-        De andre testdeltagere valgte at springe touren over og derfor kan det overvejes om hvorvidt touren kan fjernes, da den kan anses for overflødig.        
-  \item Synes at tilføje og slet medlemmer var besværligt for mange testdeltagere.
-        En mulighed som flere deltagere prøvede instiktivt var at højre klikke på gruppemedlemmets ikon og trykke fjern. Da dette virkede sad flere og 
-  \item Ild ikonet var forvirrene.
-  \item testdeltager mente, at systemet skulle være på dansk. mindre alvorligt problem.
-  \item Files/Gallery og Task/calender var ikke overskueligt.
-  \item tasks kommer automatisk ind i kalender (positiv). 
-  \item frustration over søgerbaren som dukker op og er svær at fjerne.
-  \item bedsked med at sletning af filer/fjernelse af brugeren ikke kan blive recovered (positiv)
-  \item At man kan trække task rundt med henblik på priorities.
-  \item calendar er ubrueligt
-  \item negativ: ikke private messageing. 
-  \item Ikke tydeligt med email? ved signup. 
-  \item svært at oprette gruppe, ikonet var misvisende.
-  \item Dårligt måde at fjerne folk på.
-  \item problematisk at task og calendar stod ved siden hinanden, da man overså calendaren. Task blev fremhævet.
-  \item problematisk/god ide at man ikke kan sætte tidspunkt i kalenderen i grouproom
-  \item ens kanpper gør forskellige ting (medlemmer og filer)
-  \item Ville foramagtigt besked system.(mangelende visuelt overblik).
-  \item mangelende meddelese ved sletning af bedsked. 
-  \item priotet rangering af tasks.
+  \item \textbf{Signup.} Testdeltagerne var forvirrede over signup-processen. Deriblandt fandt de den manglende information på siden problematisk, det er eksempelvis ikke beskrevet hvilke dele af profiloprettelsen der er obligatoriske. Eksempelvis genererer "\textit{Upgrade/School code}" mange spørgsmål blandt vores testdeltagere. Ingen vidste hvad det var, og da der ikke kunne findes nogen former for uddybende information eller signaler om obligatorisk status skabte det forvirring. Et andet problem var, at når brugeren skriver et ugyldigt password bliver dette kun markeret med rødt - og giver altså ikke brugeren yderligere information om hvad han gjorde forkert, eller eventuelt hvad kravene til et password måtte være. Disse problemer kan let løses ved at lave et mere informerende signup-interface, hvor man både giver bedre fejlmeddelelser og hjælper brugeren bedre på vej. Hvis de dog ikke bliver løst, kan det lede til at brugeren i sidste ende ikke kan finde ud af at oprette sig som bruger, hvilket må kategoriseres som et kritisk problem.
+  
+  \item \textbf{Brugervalidering.} Sammenhængende med (1), så får brugeren lige efter han har oprettet sig besked på at validere sin konto. Dette informeres brugeren om i en lille boks med flere linjers tekst, der uheldigvis kunne klikkes meget nemt væk. Det valgte alle vores testdeltagere at gøre, uden at læse hvad der stod. Selvom dette er en meget normal proces i forbindelse med profilopretning, viste det sig at samtlige vores testdeltagere enten ikke kunne finde ud af at de skulle ind på deres mail, eller havde meget svært ved det. Det er igen et kritisk problem med en nem løsning. Brugeren kan hurtigt blive dirigeret videre, hvis det eksempelvis bliver oplyst gennem en mere permanent side - eller i alt sin enkelthed står mere fremhævet og ikke blandt en længere test, som brugeren ikke finder interessant og dermed blot klikker væk fra.
+  
+  \item \textbf{"Take the tour".} I de fleste tilfælde lod vores brugere sig skræmme af at tage den guidede "tour" rundt på siden. Der var kun to testdeltagere (4 og 5) der valgte at tage den, og herigennem syntes den ene at den var alt for lang og ubrugelig. Derfor kan der argumenteres for om touren helt skulle fjernes - eller om det blot skal modificeres og gøres mere spiselig. Man kunne lave små hjælperubrikker, der kommer hver gang en bruger bruger et element for første gang. Alt i alt er dette problem dog kun et mindre problem, da det ikke havde den store indflydelse på resten af testdeltagernes færden på GroupRoom - og dermed sagt at det egentlig heller ikke hjalp brugerne, hvilket er dens egentlige formål.
+  
+  \item \textbf{Nyt grupperum.} Når testdeltagerne skulle oprette et nyt grupperum til sine medstuderende, var der problemer med at finde knappen. Dette udløste lettere irritation fra flere, der ikke kunne finde knappen. Mange måtte lede i lang tid og prøvede forgæves andre funktioner, og da de endelig fandt den, syntes de at ikonet for knappen var meget misvisende i forhold til dens funktionalitet. Dette må kategoriseres som et kritisk problem, da man ikke kan udnytte nogen af GroupRooms funktioner, hvis man end ikke kan lave et rum. Yderligere var der mystik om hvad det første rum man oprettede under profiloprettelsen var til. Det kan dog løses ved at få nogle mere vellignende ikoner eller på anden vis gøre brugeren særdeles opmærksom på hvor han opretter en ny gruppe.
+  
+  \item \textbf{Sletning af medlem.} For flere af vores testdeltagere var processen at tilføje og slette medlemmer til og fra gruppen en besværlighed. Specielt det at slette medlemmer af et grupperum fandt de store vanskeligheder ved. De forsøgte sig oftest først ved at højre- og venstreklikke på pågældende medlem, og først derefter undersøgte de andre muligheder. Det gjorde at flere testdeltagere måtte søge i mere end et minut efter funktionen, hvorefter de i sidste ende fandt det. Da det flere gange tog over et minut, må vi kategorisere dette som et alvorligt problem. Problemet ville eksempelvis kunne løses ved at implementere hvad brugerne instinktiv gjorde - altså give en række interaktionsmulighed ved et klik på et medlem. For eksempel som tilfældet er, når man skal slette en uploadet fil på GroupRoom.
+  
+  \item \textbf{Files/Gallery og Task/Calender navigation.} Mange af testdeltagerne fandt navigationen mellem Files/Gallery og Task/Calender forvirrende - og flere endte op med at bruge andre alternativer til at løse opgaver, der ellers havde til formål at teste disse. Eksempelvis valgte flere at lave en task i stedet for en begivenhed til at planlægge et gruppemøde. Dette problem kan løses ved at gøre calender-tabben mere tydelig, det fremgik simpelthen ikke klart nok for vores testdeltagere, at der var tale om to forskellige sider.
+
+  \item \textbf{Task trumfer calendar.} I forlængelse af problemet ovenfor, udledes også at mange testdeltagere helt overså at der fandtes en calendar-side. Task bliver klart fremhævet, mens calendar må indtage en sekundær position. Det gør det problematisk, da de fleste af vores testdeltagere valgte fuldt ud at ignorere den, hvilket gør den ubrugelig. For at løse dette problem kunne man genoverveje nødvendigheden af en kalender, og ultimativt enten vælge at fjerne den eller give den en mere central plads på hjemmesiden - da den som den er nu synes gemt væk.
+  
+  \item \textbf{Task automatisk i calender} En af de testdeltagere, der kom ind på calenderen opdagede således også at den task han just havde oprettet allerede var sat ind i kalenderen. Det var noget han efter interviewede fremhævede, som en af de ting han syntes godt om ved hjemmesiden.
+    
+------------------------------------------------------------------------------
+    
+  \item \textbf{Forskel på Files og Gallery.} En bruger så det unødvendigt at dele files og gallery op i to faner, fulgt op med et retorisk spørgsmål om hvorvidt billeder ikke også var filer. Han så kun fordele i at samle de to til en, om ikke andet så for at undgå forvirring omkring forskellene på dem.
+  
+------------------------------------------------------------------------------ 
+  \item \textbf{Notifikationer.} Det lille flammeikon, der skal indikere når der er sket noget nyt på i en gruppe, fandt flere mere forstyrrende end gavnlig. Nogle blev revet helt væk fra testen i deres iver for at undersøge, hvad dette ikon gjorde. Da de klikkede på det, forsvandt det, og brugeren sad konfus tilbage og undrede sig over, hvad hans klik måtte have udløst. En løsning ville være at bruge et andet ikon end en flamme. Eventuelt helt udelukke ikoner til at fortælle brugeren at nye ting er sket, for i stedet at fremhæve det anden vis. Det kunne være en skarpere baggrundsfarve, tykkere font eller hvad end der findes passende.
+  
+  \item \textbf{Ikoner.} Nogle ikoner er ens, men betyder forskellige ting for forskellige områder. Det forvirrede nogle brugere, da det forventedes at de ville have samme funktionalitet. Et eksempel på dette er når man vil uploade en fil og tilføje et medlem - to funktioner med det samme ikon. Det brokkede nogle af testdeltagerne sig over, da det gav anledning til flere fejlklik.
+ 
+  \item \textbf{Privat besked.} Det undrede mange af testdeltagerne, at man ikke kunne skrive private beskeder til sine studiekammerater. Det begrænser aktiviteten og tvinger brugerne til at bruge andre redskaber - og ultimativt andre hjemmesider til at kommunikere privat med et af sine gruppemedlemmer. Derfor var der mange der så det som en stor nødvendighed at en side som GroupRoom også har det implementeret.
+
+  \item \textbf{Flere uploading muligheder.} Flere brugere roste muligheden for, at man ikke kun kunne uploade filer man havde liggende lokalt på sin computer, men der også var mange forskellige andre muligheder for at uploade en fil.
+  
+  \item \textbf{Besked ved sletning af fil.} I forlængelse heraf påpegede testdeltagerne også, at de var glade for den advarsel, der gjorde dem opmærksom på at når man ville slette en fil, så gjorde man det permanent.
+  
+  \item \textbf{Tasks.} Der var en generel tilfredshed blandt testdeltagerne omkring den måde tasks var opbygget. Mere specfikt de forskellige kategorier man kunne inddele dem i, og de forskellige måder man kunne fremhæve dem på og tildele dem til udvalgte gruppemedlemmer.
+  
+  \item \textbf{Nem omprioritering af tasks.} En af testdeltagerne fremhævede specifikt letheden af omprioritering af tasks. Uddybende sagde han, at specielt den lette og transparente måde at give en task højere eller lavere prioritet ved blot at trække den, var meget tilfredsstillende og intuitiv.
+
+  \item \textbf{Sekundære sprog.} En testdeltager foreslog, at en forbedring til GroupRoom kunne være muligheden for at kunne vælge et andet sprog end engelsk.
+    
+  \item \textbf{Søgebaren.} På et eller andet tidspunkt skete det for alle vores testdeltagere, at de trykkede på en tast og en søgebar midt på skærmen dukkede op. De fleste testdeltagere kunne rigtig nok genkende det som en søgebar, men var meget forvirrede om hvad de egentlig søgte på. Mest af alt fordi de ikke havde bedt om at søge på noget, men blot pludseligt blev introduceret til en søgebar. For at gøre dette mere overskueligt kunne man overveje at implementere en knap, der får søgebaren frem, hvilket ville gøre at brugeren var opmærksom på at han befandt sig i en søgesituation. Men yderligere også gøre, at der ikke opstår ubevidste søgesorteringer.  
+
+  \item \textbf{Deadlinetidspunkt.} En testdeltager så den manglende mulighed for at sætte et tidspunkt for deadline af en task. Det er nu kun muligt at sætte en dato, og da mange gruppeprojekter må forventes at have små tidsspecifikke deadlines, fremhævede han dette som en stor mangel og noget der ville være en god og nødvendig tilføjelse til GroupRoom.
+
+  \item \textbf{Beskedsystem.} Flere brugere kritiserede beskedsystemet i højre side af hjemmesiden. De sagde blandt andet, at det i sit nuværende stadie føltes overflødigt og manglede større mening. Man kunne med fordel udvide beskedsystemet, så det var en mere omfattende del af interaktionen med sine gruppemedlemmer. På sit nuværende stadie virker den nedprioriteret, og det er derfor værd at overveje om man helt skal undlade at have et sådant system, eller skal give det mere plads.
+
+  \item \textbf{Forum.} I forbindelse med det foregående problem, fremhævede en testdeltager at man kunne gøre beskedsystemet til et forum i stedet for en livechat, hvilket også kunne inkorporeres med tasks og calender.
+  
+  \item \textbf{Manglende alarmering.} En testdeltager fandt det problematisk, at når han slettede de beskeder han havde skrevet i chatten, kom der ikke en besked, der alarmerede ham om hvad han var igang med.
 \end{enumerate}
 
 \section{Fremgangsmåde}
@@ -159,10 +183,12 @@ Vi mener at dette er et respræsentativt udvalg af personer, da det falder ind u
 \section{Drejebog}
 Før hver testsession skal computeren være tændt, browseren skal stå på ny fane siden i inkognito tilstand. For en sikkerhedsskyld skal historikken være slettet.
 \subsection{Stikord før interview}
-Vi tester ikke dig men web-stedet. \\
-Vi må ikke hjælpe dig under testen. \\
-Du skal tænke højt under testen. \\
-Du kan ikke lave fejl
+\begin{itemize}
+\item Vi tester ikke dig men web-stedet.
+\item Vi må ikke hjælpe dig under testen.
+\item Du skal tænke højt under testen.
+\item Du kan ikke lave fejl.
+\end{itemize}
 \subsection{Spørgsmål før interview}
 \begin{enumerate}
   \item Hvad er dine websurfing/it erfaringer?
@@ -203,7 +229,7 @@ Efter at have kørt testopgaverne på gruppens egne medlemmer, kan vi på basis 
 
 \noindent I vores test af egne gruppemedlemmer, er vi også kommet frem til egne, midlertidige resultater. Blandt disse, har vi at testene fandt designet til at være velkendt for brugerne. De fandt det Windows-lignende, og fandt sig yderligere godt hjemme i tabsene i toppen til at skifte mellem grupper, da det ligner noget de har prøvet før. Vores testdeltager fandt dog ikke ikonet for at lave en ny gruppe specielt beskrivende, og havde derfor meget besvær med at finde ud af hvilken knap han skulle trykke på at for oprette denne. Dog syntes brugerens generelle indtryk af knapperne til at være godt beskrivende om deres funktionaliteter, med undtagelse af denne ene førnævnte knap. Derudover finder brugeren tvivl om hvad det grupperum, der blev oprettet ved tilmeldelsen, har som rolle. I stedet valgtes at oprette et nyt rum til sine nye grupper, og efterlade det første tomt.\\
 
-\noindent Vores testdeltager fandt hele brugeroprettelsesdelen besværlig. Når man forsøger at oprette en ny bruger, er der alt for mange felter at tage stilling til. Dette fandt brugeren uoverskueligt, og fandt det derudover også meget forvirrende, da det ikke fremgik klart hvilke felter han krævedes at udfylde, og hvilke han bare skulle udfylde hvis han ville. Eksempelvis er det ikke specificeret nogen steder hvad "Upgrade/School code" skulle være, og da det står på lige fod med de andre bokse, vil man i høj grad være tilbøjelig til at tro at det er påkrævet. Det er det dog imidlertid ikke. En god ting om brugeroprettelsen er dog, at teksten skifter farve alt efter om dit kode eller email er gyldigt eller ej i signup processen.. Derudover fandt deltageren guiden rundt om Grouproom for lang og ligegyldig.\\
+\noindent Vores testdeltager fandt hele brugeroprettelsesdelen besværlig. Når man forsøger at oprette en ny bruger, er der alt for mange felter at tage stilling til. Dette fandt brugeren uoverskueligt, og fandt det derudover også meget forvirrende, da det ikke fremgik klart hvilke felter han krævedes at udfylde, og hvilke han bare skulle udfylde hvis han ville. Eksempelvis er det ikke specificeret nogen steder hvad "Upgrade/School code" skulle være, og da det står på lige fod med de andre bokse, vil man i høj grad være tilbøjelig til at tro at det er påkrævet. Det er det dog imidlertid ikke. En god ting om brugeroprettelsen er dog, at teksten skifter farve alt efter om dit kode eller email er gyldigt eller ej i signup processen. Derudover fandt deltageren guiden rundt om Grouproom for lang og ligegyldig.\\
 
 \noindent Man kan sætte spørgsmålstegn ved redigér knappen til uploadede billeders funktion. Når man uploader en fil får man aldrig muligheden for at redigere i denne fil, den eneste ændring man kan lave er at ændre filnavnet. Derfor synes vi, at det ikke er særligt beskrivende for knappens egentlig funktion, og man kunne med fordel give den et nyt navn i stil med "omdøb" eller lignende, der beskriver dens funktionalitet bedre.\\
 
