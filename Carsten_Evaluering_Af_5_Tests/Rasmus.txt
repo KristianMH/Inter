@@ -1,0 +1,16 @@
+Ingen spørgsmål inden test.
+
+
+1: Godt.
+2: Mindre problem. Skulle have besked om at gå ind i sin mail.
+3: Godt.
+4: Godt
+5: Godt
+6: Godt. 
+7: Godt. Bruger IKKE kalender.
+8: Godt. Bruger IKKE kalender.
+9: Godt.
+10: Mindre problem.
+
+
+Ingen spørgsmål efter test.
