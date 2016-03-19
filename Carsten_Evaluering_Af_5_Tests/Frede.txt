@@ -5,7 +5,7 @@ Kender ikke Group Room.
 1: Godt
 2: Mindre problem. Glemmer at skrive rigtig mail.
 3: Mindre problem. Er i tvivl om hvad rum er.
-4: God Idé.
+4: Godt
 5: Godt
 6: Godt
 7: Godt

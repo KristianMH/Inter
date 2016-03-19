@@ -2,9 +2,10 @@ Spørgsmål inden test:
 Jeg er god til at åbne Google og de andre browsere.
 
 1: Godt.
-2: Mindre problem. 
-3: Mindre problem.
-4: Mindre problem.
+2: Mindre problem. Kan for så vidt godt finde ud af det, men han bruger utrolig meget tid på at analysere. 
+Han vælger "Take the tour" Hvor man får en masse vejledning om Grouproom.
+3: Mindre problem. Kan for så vidt godt finde ud af det, men han bruger utrolig meget tid på at analysere.
+4: Mindre problem. Kan for så vidt godt finde ud af det, men han bruger utrolig meget tid på at analysere.
 5: Godt.
 6: Godt.
 7: Godt.

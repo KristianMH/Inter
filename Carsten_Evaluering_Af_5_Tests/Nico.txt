@@ -5,9 +5,9 @@ Det lyder som et forum.
 
 1: Godt
 2: Mindre problem. Bruger har problemer med password og uoverskueligt.
-3: Mindre problem.
-4: Mindre problem.
-5: Godt
+3: Mindre problem. Har problemer med at oprette rum.
+4: Mindre problem. Har problemer med at invitere.
+5: Mindre problem. Har problemer med at uploade.
 6: Godt
 7: Godt
 8: Godt

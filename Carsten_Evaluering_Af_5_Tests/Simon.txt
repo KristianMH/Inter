@@ -6,7 +6,7 @@ Der var ingen spørgsmål inden testen.
 4: Godt
 5: Godt
 6: Godt
-7: Mindre problem.
+7: Mindre problem. Vælger task i stedet for kalender.
 8: Godt.
 9: Godt.
 10: Godt.

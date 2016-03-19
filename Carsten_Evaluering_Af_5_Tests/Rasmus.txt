@@ -10,7 +10,7 @@ Ingen spørgsmål inden test.
 7: Godt. Bruger IKKE kalender.
 8: Godt. Bruger IKKE kalender.
 9: Godt.
-10: Mindre problem.
+10: Mindre problem. Har problemer med at smide medlem ud.
 
 
 Ingen spørgsmål efter test.
