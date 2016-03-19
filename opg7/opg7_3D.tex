@@ -77,7 +77,7 @@
 \section{Indledning}
 \textit{
 GroupRoom er et simpelt online projektstyringsværktøj designet til studerende på gymnasier og
-videregående uddannelser. Løsningen samler planlægning/opgavestyring, filer, links og kommunikation i ét simpelt skærmbillede, hvilket gør det muligt at få et hurtig overblik over sit projekt.}\cite[p.27]{Kursus}\\
+videregående uddannelser. Løsningen samler planlægning/opgavestyring, filer, links og kommunikation i ét simpelt skærmbillede, hvilket gør det muligt at få et hurtig overblik over sit projekt.}\\
 Følgende rapport er en beskrivelse og resultater for gennemført test af brugervenlighed af webstedet i uge 11.
 \subsection{Formål}
 Formålet ved denne rapport er, at finde og beskrive problemer mellem typiske brugere og grouproom's webapp. \\
@@ -136,7 +136,15 @@ Vi mener at dette er et respræsentativt udvalg af personer, da det falder ind u
     
   \item \textbf{Password.} Et andet problem i samme instans var når brugeren skriver et ugyldigt password bliver dette kun markeret med rødt - og giver altså ikke brugeren yderligere information om hvad han gjorde forkert, eller eventuelt hvad kravene til et password måtte være. Dette problem kan løses ved en bedre fejlbesked end blot rød markering - dette kunne være at oplyse brugeren om de præcise krav for et password.
   
-  \item \textbf{Brugervalidering.} Sammenhængende med ovenstående, så får brugeren lige efter han har oprettet sig besked på at validere sin konto. Dette informeres brugeren om i en lille boks med flere linjers tekst, der uheldigvis kunne klikkes meget nemt væk. Det valgte alle vores testdeltagere at gøre, uden at læse hvad der stod. Selvom dette er en meget normal proces i forbindelse med profilopretning, viste det sig at samtlige vores testdeltagere enten ikke kunne finde ud af at de skulle ind på deres mail, eller havde meget svært ved det. Det er igen et kritisk problem med en nem løsning. Brugeren kan hurtigt blive dirigeret videre, hvis det eksempelvis bliver oplyst gennem en mere permanent side - eller i alt sin enkelthed står mere fremhævet og ikke blandt en længere test, som brugeren ikke finder interessant og dermed blot klikker væk fra.
+    \begin{center}\includegraphics[scale=0.35]{Billeder/Signing-Up}\end{center}
+
+  \item \textbf{Signup forside.} En testdeltager valgte at bruge "Get started"-funktionen ved signup. I forbindelse med dette skulle han skrive sin mail - hvori han dog glemte @. Fejlbeskeden (som set i billedet herunder) GroupRoom valgte at give ham var dog ikke specielt oplysende - den sagde blot, at han skulle udfylde til de blev grønne. Det kaster brugeren ud i en gætteleg om hvad der kunne være gået galt, i stedet for eksempelvis at give brugeren reglerne for hvordan en email skulle se ud.
+  
+  \begin{center}\includegraphics[scale=0.35]{Billeder/Bad-Help-Message}\end{center}
+  
+  \item \textbf{Brugervalidering.} Sammenhængende med ovenstående, så får brugeren lige efter han har oprettet sig besked på at validere sin konto. Dette informeres brugeren om i en lille boks med flere linjers tekst, der, som vist i billedet herunder, uheldigvis kunne klikkes meget nemt væk. Det valgte alle vores testdeltagere at gøre, uden at læse hvad der stod. Selvom dette er en meget normal proces i forbindelse med profilopretning, viste det sig at samtlige vores testdeltagere enten ikke kunne finde ud af at de skulle ind på deres mail, eller havde meget svært ved det. Det er igen et kritisk problem med en nem løsning. Brugeren kan hurtigt blive dirigeret videre, hvis det eksempelvis bliver oplyst gennem en mere permanent side - eller i alt sin enkelthed står mere fremhævet og ikke blandt en længere test, som brugeren ikke finder interessant og dermed blot klikker væk fra.
+  
+    \begin{center}\includegraphics[scale=0.35]{Billeder/Email-Message}\end{center}
   
   \item \textbf{"Take the tour".} I de fleste tilfælde lod vores brugere sig skræmme af at tage den guidede "tour" rundt på siden. Der var kun to testdeltagere (4 og 5) der valgte at tage den, og herigennem syntes den ene at den var alt for lang og ubrugelig. Derfor kan der argumenteres for om touren helt skulle fjernes - eller om det blot skal modificeres og gøres mere spiselig. Man kunne lave små hjælperubrikker, der kommer hver gang en bruger bruger et element for første gang. Alt i alt er dette problem dog kun et mindre problem, da det ikke havde den store indflydelse på resten af testdeltagernes færden på GroupRoom - og dermed sagt at det egentlig heller ikke hjalp brugerne, hvilket er dens egentlige formål.
   
@@ -190,7 +198,7 @@ Vi mener at dette er et respræsentativt udvalg af personer, da det falder ind u
 \section{Fremgangsmåde}
 Testen er gennemført med 5 personer, der alle falder ind i målgruppen for webstedet. Ingen af testdeltagerne kendte grouproom før i forvejen.\\
 
-\noindentAlle test blev udført enkeltvis. En testsession tog imellem 30-45 minutter pr test. Hver testdeltager blev indledningsvis interviewet om sine erfaringer med grouproom eller relaterede produkter. \\
+\noindent Alle test blev udført enkeltvis. En testsession tog imellem 30-45 minutter pr test. Hver testdeltager blev indledningsvis interviewet om sine erfaringer med grouproom eller relaterede produkter. \\
 
 \noindent Derefter blev testdeltageren bedt om at løse en række opgaver, hvor de fik prøvet forskellige aspekter af systemet. Mens testdeltageren løste opgaver, blev de bedt om at tænkte højt og fortælle deres meninger om systemet.\\
 Detajlerede kommentaterer til usability og Resultaterne er beskrevet i sektion 3 og 6.\\
@@ -363,7 +371,5 @@ Dominique fjerner sig selv fra opgaven og giver den til Mikkel.
 Dominique har let ved denne opgave.\\
 
 \end{enumerate}
-\newpage
-\bibliography{references}{}
-\bibliographystyle{plain}
+
 \end{document}
