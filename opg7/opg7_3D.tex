@@ -83,7 +83,7 @@ Følgende rapport er en beskrivelse og resultater for gennemført test af bruger
 Formålet ved denne rapport er, at finde og beskrive problemer mellem typiske brugere og grouproom's webapp. \\
 Der lægges særlig vægt på at finde alvorlige afvigelser fra en god opelevelse. En god oplevelse af system er når den typiske brugere oplever et behageligt, effektivt system, der opfylder brugerens behov. I denne test er der lagt særlig vægt på at undersøge følgende brugervenlighedsmæssige sprøgsmål:
 \begin{enumerate}
-  \item Lever websetdet op til brugerenes forventninger? \\
+  \item Lever webstedet op til brugerenes forventninger? \\
         hvad forventer de at systemet skal kunne.
   \item Navigation. \\
         kan brugerene overskue web appens struktur og hvor let har de ved at finde rundt i systemet og løse forskellige opgaver.
@@ -118,16 +118,23 @@ Til vores testsessioner har vi fundet følgende personer:
 \end{center}
 Vi mener at dette er et respræsentativt udvalg af personer, da det falder ind under målgruppen for grouproom.
 \section{Testdeltagernes forventninger til webstedet}
-\begin{enumerate}
-  \item Live code editing.
-  \item Underviser tilgang.
-  \item Chat mellem bruger.
-  \item Privat besked.
-  \item Gratis.
+Før testdeltagerne begyndte med opgaverne, spurgte vi hvilke forventer de havde til systemet. \\
+På basis af disse spørgsmål er vi kommet frem til nedestående liste:\\
+\begin{itemize}
+  \item "Collabrative editing"\\
+        Størstedelen af testdeltagerne mente, at det var en vigtig funktion for systemet at understøtter. 
+  \item Underviser tilgang.\\
+        Testdeltager 1 forventede, at underviserne havde adgang til sine elevers rum og kunne derved bruges til feedback af gruppens
+        dokumenter og man kunne kontakte underviserne for hjælp, hvilket kunne være en god ide med henblik på nye funktioner til grouproom.
+  \item Chat mellem brugere.
+  \item Privat beskeder til brugere.
+  \item Gratis. \\
+        Alle testdeltagere mente, at grouproom skulle være gratis. 
   \item Browser-kompatibel.
-  \item Ingen installation nødvendig.
-\end{enumerate}
-
+        Man skulle bruge systemet udelukkende i browseren.
+  \item Ingen installation nødvendig af systemet.\\
+        Man behøvede ikke at downloade og installere et program på ens computer for at få adgang til systemet.
+\end{itemize}
 \newpage
 
 \section{Testdeltagernes oplevelse af webstedet}
@@ -136,6 +143,7 @@ Vi mener at dette er et respræsentativt udvalg af personer, da det falder ind u
     
   \item \textbf{Password.} Et andet problem i samme instans var når brugeren skriver et ugyldigt password bliver dette kun markeret med rødt - og giver altså ikke brugeren yderligere information om hvad han gjorde forkert, eller eventuelt hvad kravene til et password måtte være. Dette problem kan løses ved en bedre fejlbesked end blot rød markering - dette kunne være at oplyse brugeren om de præcise krav for et password.
   
+<<<<<<< HEAD
     \begin{center}\includegraphics[scale=0.35]{Billeder/Signing-Up}\end{center}
 
   \item \textbf{Signup forside.} En testdeltager valgte at bruge "Get started"-funktionen ved signup. I forbindelse med dette skulle han skrive sin mail - hvori han dog glemte @. Fejlbeskeden (som set i billedet herunder) GroupRoom valgte at give ham var dog ikke specielt oplysende - den sagde blot, at han skulle udfylde til de blev grønne. Det kaster brugeren ud i en gætteleg om hvad der kunne være gået galt, i stedet for eksempelvis at give brugeren reglerne for hvordan en email skulle se ud.
@@ -143,10 +151,12 @@ Vi mener at dette er et respræsentativt udvalg af personer, da det falder ind u
   \begin{center}\includegraphics[scale=0.35]{Billeder/Bad-Help-Message}\end{center}
   
   \item \textbf{Brugervalidering.} Sammenhængende med ovenstående, så får brugeren lige efter han har oprettet sig besked på at validere sin konto. Dette informeres brugeren om i en lille boks med flere linjers tekst, der, som vist i billedet herunder, uheldigvis kunne klikkes meget nemt væk. Det valgte alle vores testdeltagere at gøre, uden at læse hvad der stod. Selvom dette er en meget normal proces i forbindelse med profilopretning, viste det sig at samtlige vores testdeltagere enten ikke kunne finde ud af at de skulle ind på deres mail, eller havde meget svært ved det. Det er igen et kritisk problem med en nem løsning. Brugeren kan hurtigt blive dirigeret videre, hvis det eksempelvis bliver oplyst gennem en mere permanent side - eller i alt sin enkelthed står mere fremhævet og ikke blandt en længere test, som brugeren ikke finder interessant og dermed blot klikker væk fra.
-  
-    \begin{center}\includegraphics[scale=0.35]{Billeder/Email-Message}\end{center}
-  
+  \item \textbf{Brugervalidering.} Sammenhængende med ovenstående, så får brugeren lige efter han har oprettet sig besked på at validere sin konto. Dette informeres brugeren om i en lille boks med flere linjers tekst, der uheldigvis kunne klikkes meget nemt væk. Det valgte alle vores testdeltagere at gøre, uden at læse hvad der stod. Selvom dette er en meget normal proces i forbindelse med profilopretning, viste det sig at samtlige vores testdeltagere enten ikke kunne finde ud af at de skulle ind på deres mail, eller havde meget svært ved det. Det er igen et kritisk problem med en nem løsning. Brugeren kan hurtigt blive dirigeret videre, hvis det eksempelvis bliver oplyst gennem en mere permanent side - eller i alt sin enkelthed står mere fremhævet og ikke blandt en længere test, som brugeren ikke finder interessant og dermed blot klikker væk fra.
+\includegraphics[scale=1.5]{Email-Message.png}  
+
+>>>>>>> a41997b1d688e6fbd670338dc944714bcfeabde9
   \item \textbf{"Take the tour".} I de fleste tilfælde lod vores brugere sig skræmme af at tage den guidede "tour" rundt på siden. Der var kun to testdeltagere (4 og 5) der valgte at tage den, og herigennem syntes den ene at den var alt for lang og ubrugelig. Derfor kan der argumenteres for om touren helt skulle fjernes - eller om det blot skal modificeres og gøres mere spiselig. Man kunne lave små hjælperubrikker, der kommer hver gang en bruger bruger et element for første gang. Alt i alt er dette problem dog kun et mindre problem, da det ikke havde den store indflydelse på resten af testdeltagernes færden på GroupRoom - og dermed sagt at det egentlig heller ikke hjalp brugerne, hvilket er dens egentlige formål.
+\includegraphics[scale=1.5]{Take-A-Tour.png}
   
   \item \textbf{Nyt grupperum.} Når testdeltagerne skulle oprette et nyt grupperum til sine medstuderende, var der problemer med at finde knappen. Dette udløste lettere irritation fra flere, der ikke kunne finde knappen. Mange måtte lede i lang tid og prøvede forgæves andre funktioner, og da de endelig fandt den, syntes de at ikonet for knappen var meget misvisende i forhold til dens funktionalitet. Dette må kategoriseres som et kritisk problem, da man ikke kan udnytte nogen af GroupRooms funktioner, hvis man end ikke kan lave et rum. Yderligere var der mystik om hvad det første rum man oprettede under profiloprettelsen var til. Det kan dog løses ved at få nogle mere vellignende ikoner eller på anden vis gøre brugeren særdeles opmærksom på hvor han opretter en ny gruppe.
   
