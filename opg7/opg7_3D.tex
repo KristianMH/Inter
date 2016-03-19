@@ -142,8 +142,7 @@ På basis af disse spørgsmål er vi kommet frem til nedestående liste:\\
   \item \textbf{Signup.} Testdeltagerne var forvirrede over signup-processen. Deriblandt fandt de den manglende information på siden problematisk, da det ikke er beskrevet hvilke dele af profiloprettelsen der er obligatoriske. For eksempel genererer "Upgrade/School code" mange spørgsmål blandt vores testdeltagere. Spørgsmål, der kunne være undgået, hvis man havde fortalt brugeren, at man ikke behøvede udfylde dette felt. Man kunne ved hjælp af en stjerne eller andet ikon, gøre brugeren opmærksom på dette.
     
   \item \textbf{Password.} Et andet problem i samme instans var når brugeren skriver et ugyldigt password bliver dette kun markeret med rødt - og giver altså ikke brugeren yderligere information om hvad han gjorde forkert, eller eventuelt hvad kravene til et password måtte være. Dette problem kan løses ved en bedre fejlbesked end blot rød markering - dette kunne være at oplyse brugeren om de præcise krav for et password.
-  
-<<<<<<< HEAD
+
     \begin{center}\includegraphics[scale=0.35]{Billeder/Signing-Up}\end{center}
 
   \item \textbf{Signup forside.} En testdeltager valgte at bruge "Get started"-funktionen ved signup. I forbindelse med dette skulle han skrive sin mail - hvori han dog glemte @. Fejlbeskeden (som set i billedet herunder) GroupRoom valgte at give ham var dog ikke specielt oplysende - den sagde blot, at han skulle udfylde til de blev grønne. Det kaster brugeren ud i en gætteleg om hvad der kunne være gået galt, i stedet for eksempelvis at give brugeren reglerne for hvordan en email skulle se ud.
@@ -151,12 +150,13 @@ På basis af disse spørgsmål er vi kommet frem til nedestående liste:\\
   \begin{center}\includegraphics[scale=0.35]{Billeder/Bad-Help-Message}\end{center}
   
   \item \textbf{Brugervalidering.} Sammenhængende med ovenstående, så får brugeren lige efter han har oprettet sig besked på at validere sin konto. Dette informeres brugeren om i en lille boks med flere linjers tekst, der, som vist i billedet herunder, uheldigvis kunne klikkes meget nemt væk. Det valgte alle vores testdeltagere at gøre, uden at læse hvad der stod. Selvom dette er en meget normal proces i forbindelse med profilopretning, viste det sig at samtlige vores testdeltagere enten ikke kunne finde ud af at de skulle ind på deres mail, eller havde meget svært ved det. Det er igen et kritisk problem med en nem løsning. Brugeren kan hurtigt blive dirigeret videre, hvis det eksempelvis bliver oplyst gennem en mere permanent side - eller i alt sin enkelthed står mere fremhævet og ikke blandt en længere test, som brugeren ikke finder interessant og dermed blot klikker væk fra.
-  \item \textbf{Brugervalidering.} Sammenhængende med ovenstående, så får brugeren lige efter han har oprettet sig besked på at validere sin konto. Dette informeres brugeren om i en lille boks med flere linjers tekst, der uheldigvis kunne klikkes meget nemt væk. Det valgte alle vores testdeltagere at gøre, uden at læse hvad der stod. Selvom dette er en meget normal proces i forbindelse med profilopretning, viste det sig at samtlige vores testdeltagere enten ikke kunne finde ud af at de skulle ind på deres mail, eller havde meget svært ved det. Det er igen et kritisk problem med en nem løsning. Brugeren kan hurtigt blive dirigeret videre, hvis det eksempelvis bliver oplyst gennem en mere permanent side - eller i alt sin enkelthed står mere fremhævet og ikke blandt en længere test, som brugeren ikke finder interessant og dermed blot klikker væk fra.
-\includegraphics[scale=1.5]{Email-Message.png}  
+  
+    \begin{center}\includegraphics[scale=0.4]{Billeder/Email-Message}\end{center}
+  
 
->>>>>>> a41997b1d688e6fbd670338dc944714bcfeabde9
   \item \textbf{"Take the tour".} I de fleste tilfælde lod vores brugere sig skræmme af at tage den guidede "tour" rundt på siden. Der var kun to testdeltagere (4 og 5) der valgte at tage den, og herigennem syntes den ene at den var alt for lang og ubrugelig. Derfor kan der argumenteres for om touren helt skulle fjernes - eller om det blot skal modificeres og gøres mere spiselig. Man kunne lave små hjælperubrikker, der kommer hver gang en bruger bruger et element for første gang. Alt i alt er dette problem dog kun et mindre problem, da det ikke havde den store indflydelse på resten af testdeltagernes færden på GroupRoom - og dermed sagt at det egentlig heller ikke hjalp brugerne, hvilket er dens egentlige formål.
-\includegraphics[scale=1.5]{Take-A-Tour.png}
+  
+    \begin{center}\includegraphics[scale=0.4]{Billeder/Take-A-Tour}\end{center}
   
   \item \textbf{Nyt grupperum.} Når testdeltagerne skulle oprette et nyt grupperum til sine medstuderende, var der problemer med at finde knappen. Dette udløste lettere irritation fra flere, der ikke kunne finde knappen. Mange måtte lede i lang tid og prøvede forgæves andre funktioner, og da de endelig fandt den, syntes de at ikonet for knappen var meget misvisende i forhold til dens funktionalitet. Dette må kategoriseres som et kritisk problem, da man ikke kan udnytte nogen af GroupRooms funktioner, hvis man end ikke kan lave et rum. Yderligere var der mystik om hvad det første rum man oprettede under profiloprettelsen var til. Det kan dog løses ved at få nogle mere vellignende ikoner eller på anden vis gøre brugeren særdeles opmærksom på hvor han opretter en ny gruppe.
   
@@ -176,11 +176,15 @@ På basis af disse spørgsmål er vi kommet frem til nedestående liste:\\
 
   \item \textbf{Notifikationer.} Det lille flammeikon, der skal indikere når der er sket noget nyt på i en gruppe, fandt flere mere forstyrrende end gavnlig. Nogle blev revet helt væk fra testen i deres iver for at undersøge, hvad dette ikon gjorde. Da de klikkede på det, forsvandt det, og brugeren sad konfus tilbage og undrede sig over, hvad hans klik måtte have udløst. En løsning ville være at bruge et andet ikon end en flamme. Eventuelt helt udelukke ikoner til at fortælle brugeren at nye ting er sket, for i stedet at fremhæve det anden vis. Det kunne være en skarpere baggrundsfarve, tykkere font eller hvad end der findes passende.
   
-  \item \textbf{Ikoner.} Nogle ikoner er ens, men betyder forskellige ting for forskellige områder. Det forvirrede nogle brugere, da det forventedes at de ville have samme funktionalitet. Et eksempel på dette er når man vil uploade en fil og tilføje et medlem - to funktioner med det samme ikon. Det brokkede nogle af testdeltagerne sig over, da det gav anledning til flere fejlklik.
+  \item \textbf{Ikoner.} Nogle ikoner er ens, men betyder forskellige ting for forskellige områder. Det forvirrede nogle brugere, da det forventedes at de ville have samme funktionalitet. Et eksempel på dette, illustreret ved billedet herunder, er når man vil uploade en fil og tilføje et medlem - to funktioner med det samme ikon. Det brokkede nogle af testdeltagerne sig over, da det gav anledning til flere fejlklik.
+  
+  \begin{center}\includegraphics[scale=0.5]{Billeder/Delet-File}\end{center}
  
   \item \textbf{Privat besked.} Det undrede mange af testdeltagerne, at man ikke kunne skrive private beskeder til sine studiekammerater. Det begrænser aktiviteten og tvinger brugerne til at bruge andre redskaber - og ultimativt andre hjemmesider til at kommunikere privat med et af sine gruppemedlemmer. Derfor var der mange der så det som en stor nødvendighed at en side som GroupRoom også har det implementeret.
 
   \item \textbf{Flere uploading muligheder.} Flere brugere roste muligheden for, at man ikke kun kunne uploade filer man havde liggende lokalt på sin computer, men der også var mange forskellige andre muligheder for at uploade en fil.
+  
+      \begin{center}\includegraphics[scale=0.4]{Billeder/Add-File}\end{center}
   
   \item \textbf{Besked ved sletning af fil.} I forlængelse heraf påpegede testdeltagerne også, at de var glade for den advarsel, der gjorde dem opmærksom på at når man ville slette en fil, så gjorde man det permanent.
   
