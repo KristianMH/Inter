@@ -1,0 +1,34 @@
+Spørgsmål inden test:
+Jeg er god til at åbne Google og de andre browsere.
+
+1: Godt.
+2: Mindre problem. Kan for så vidt godt finde ud af det, men han bruger utrolig meget tid på at analysere. 
+Han vælger "Take the tour" Hvor man får en masse vejledning om Grouproom.
+3: Mindre problem. Kan for så vidt godt finde ud af det, men han bruger utrolig meget tid på at analysere.
+4: Mindre problem. Kan for så vidt godt finde ud af det, men han bruger utrolig meget tid på at analysere.
+5: Godt.
+6: Godt.
+7: Godt.
+8: Alvorligt problem. Skulle vejledes meget.
+9: Kritisk problem. Skulle vejledes meget.
+10: Godt.
+
+Spørgsmål efter test:
+Fin test. Fandt hurtigt ud af, hvordan jeg skulle bruge det.
+
+3 Bedste ting:
+Upload af filer.
+Måden man laver task på.
+Forskellige steder man kan vælge at uploade fra.
+
+3 Værste ting:
+Dårlig mulighed for privatbeskeder til enkelte medlemmer.
+Dårlig kalender.
+Man skal kunne trykke på medlemmerne under "members" for, at kunne gøre forskellige ting.
+Files/Gallery er uoverskueligt.
+Mulighed for at ordne beskeder ud fra emne.
+Man skal lige have spørgsmålet "Er du sikker på, at du vil slette denne besked"
+
+
+
+Ja. Kunne godt finde på at bruge Grouproom.
